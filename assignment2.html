@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        #sf{
+            margin-left: 125px;
+        }
+        #name{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+        #addressp{
+            height: 30px;
+            width: 600px;
+            border-radius: 10px;
+        }
+        #address11{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+        #zip{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px;
+        }
+        #country{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+        #tel, #email{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+        button{
+            border: 3px solid white;
+            background-color: blue;
+            color: white;
+            height: 30px;
+            border-radius: 10px;
+            width: 70px;
+            margin-left: 270px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="sf">Survey Form:</h1>
+    <hr>
+
+    <h2>Customer Name</h2>
+    <label for="name"></label>
+    <input type="text" id="name" placeholder="enter your first name">
+
+    <label for="name"></label>
+    <input type="text" id="name" placeholder="enter your last name">
+    
+    <h2>Address</h2>
+    <label for="addressp"></label>
+    <input type="text" id="addressp" placeholder="enter your permanent address"><br><br>
+    <label for="addressp"></label>
+    <input type="text" id="addressp" placeholder="enter your temporary address"><br><br>
+
+    <label for="address11"></label>
+    <input type="text" id="address11" placeholder="city">
+    <label for="address11"></label>
+    <input type="text" id="address11" placeholder="state">
+    <br><br>
+    <label for="zip"></label>
+    <input type="text" id="zip" placeholder="zip">
+    <br><br>
+    <select name="country" id="country">
+        <option value="">Select a country</option>
+        <option value="a">Nepal</option>
+        <option value="b">USA</option>
+        <option value="c">China</option>
+    </select>
+    <br><br>
+    <h2>Contact</h2>
+    <input type="tel" id="tel" placeholder="Phone">
+    <input type="email" id="email" placeholder="Email">
+    <br>
+    <br>
+    <h2>Personal details</h2>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="others" name="gender" value="others">
+    <label for="others">Others</label><br><br>
+
+    <h2>Ratings</h2>
+    <label for="1">Rating 1:</label>
+    <input type="radio" id="bad" name="rate" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" id="good" name="rate" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="excellent" name="rate" value="excellent">
+    <label for="excellent">Excllent</label><br><br>
+    
+    <label for="1">Rating 2:</label>
+    <input type="radio" id="bad" name="rate" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" id="good" name="rate" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="excellent" name="rate" value="excellent">
+    <label for="excellent">Excllent</label><br><br>
+        
+    <label for="1">Rating 3:</label>
+    <input type="radio" id="bad" name="rate" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" id="good" name="rate" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="excellent" name="rate" value="excellent">
+    <label for="excellent">Excllent</label><br><br>
+        
+    <label for="1">Rating 4:</label>
+    <input type="radio" id="bad" name="rate" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" id="good" name="rate" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="excellent" name="rate" value="excellent">
+    <label for="excellent">Excllent</label><br><br>
+        
+    <label for="1">Rating 5:</label>
+    <input type="radio" id="bad" name="rate" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" id="good" name="rate" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="excellent" name="rate" value="excellent">
+    <label for="excellent">Excllent</label><br><br>
+        
+    <label for="1">Rating 6:</label>
+    <input type="radio" id="bad" name="rate" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" id="good" name="rate" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="excellent" name="rate" value="excellent">
+    <label for="excellent">Excllent</label><br><br>
+    
+    <label for="1">Rating 7:</label>
+    <input type="radio" id="bad" name="rate" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" id="good" name="rate" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="excellent" name="rate" value="excellent">
+    <label for="excellent">Excllent</label><br><br>
+
+    <button id="submit">Submit</button>
+</body>
+</html>
